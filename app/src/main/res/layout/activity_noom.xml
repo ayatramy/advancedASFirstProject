@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".activities.noom">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:gravity="center"
+                android:padding="25dp"
+                android:text="أذكار النوم "
+                android:textColor="@color/purpule"
+                android:textSize="30sp"
+                android:textStyle="bold|italic" />
+
+            <FrameLayout
+                android:id="@+id/noomFragID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_margin="15dp"-->
+<!--                android:gravity="center"-->
+<!--                android:padding="20dp"-->
+<!--                android:text="@string/alekhlas"-->
+<!--                android:textColor="@color/purpule"-->
+<!--                android:textSize="18sp"-->
+<!--                android:textStyle="bold" />-->
+
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_margin="15dp"-->
+<!--                android:gravity="center"-->
+<!--                android:padding="20dp"-->
+<!--                android:text="@string/alfalaq"-->
+<!--                android:textColor="@color/purpule"-->
+<!--                android:textSize="18sp"-->
+<!--                android:textStyle="bold" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_margin="15dp"-->
+<!--                android:gravity="center"-->
+<!--                android:padding="20dp"-->
+<!--                android:text="@string/alnas"-->
+<!--                android:textColor="@color/purpule"-->
+<!--                android:textSize="18sp"-->
+<!--                android:textStyle="bold" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_margin="15dp"-->
+<!--                android:gravity="center"-->
+<!--                android:padding="20dp"-->
+<!--                android:text="@string/aya_alkorsi"-->
+<!--                android:textColor="@color/purpule"-->
+<!--                android:textSize="18sp"-->
+<!--                android:textStyle="bold" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_margin="15dp"-->
+<!--                android:gravity="center"-->
+<!--                android:padding="20dp"-->
+<!--                android:text="@string/sora_albaqara"-->
+<!--                android:textColor="@color/purpule"-->
+<!--                android:textSize="18sp"-->
+<!--                android:textStyle="bold" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_margin="15dp"-->
+<!--                android:gravity="center"-->
+<!--                android:padding="20dp"-->
+<!--                android:text="@string/athkar"-->
+<!--                android:textColor="@color/purpule"-->
+<!--                android:textSize="18sp"-->
+<!--                android:textStyle="bold" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_margin="15dp"-->
+<!--                android:gravity="center"-->
+<!--                android:padding="20dp"-->
+<!--                android:text="@string/athkar3"-->
+<!--                android:textColor="@color/purpule"-->
+<!--                android:textSize="18sp"-->
+<!--                android:textStyle="bold" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_margin="15dp"-->
+<!--                android:gravity="center"-->
+<!--                android:padding="20dp"-->
+<!--                android:text="@string/athkar4"-->
+<!--                android:textColor="@color/purpule"-->
+<!--                android:textSize="18sp"-->
+<!--                android:textStyle="bold" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_margin="15dp"-->
+<!--                android:gravity="center"-->
+<!--                android:padding="20dp"-->
+<!--                android:text="@string/athkar5"-->
+<!--                android:textColor="@color/purpule"-->
+<!--                android:textSize="18sp"-->
+<!--                android:textStyle="bold" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_margin="15dp"-->
+<!--                android:gravity="center"-->
+<!--                android:padding="20dp"-->
+<!--                android:text="@string/athkar6"-->
+<!--                android:textColor="@color/purpule"-->
+<!--                android:textSize="18sp"-->
+<!--                android:textStyle="bold" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_margin="15dp"-->
+<!--                android:gravity="center"-->
+<!--                android:padding="20dp"-->
+<!--                android:text="@string/athkar7"-->
+<!--                android:textColor="@color/purpule"-->
+<!--                android:textSize="18sp"-->
+<!--                android:textStyle="bold" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_margin="15dp"-->
+<!--                android:gravity="center"-->
+<!--                android:padding="20dp"-->
+<!--                android:text="@string/athkar8"-->
+<!--                android:textColor="@color/purpule"-->
+<!--                android:textSize="18sp"-->
+<!--                android:textStyle="bold" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_margin="15dp"-->
+<!--                android:gravity="center"-->
+<!--                android:padding="20dp"-->
+<!--                android:text="@string/athkar9"-->
+<!--                android:textColor="@color/purpule"-->
+<!--                android:textSize="18sp"-->
+<!--                android:textStyle="bold" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_margin="15dp"-->
+<!--                android:gravity="center"-->
+<!--                android:padding="20dp"-->
+<!--                android:text="@string/athkar10"-->
+<!--                android:textColor="@color/purpule"-->
+<!--                android:textSize="18sp"-->
+<!--                android:textStyle="bold" />-->
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

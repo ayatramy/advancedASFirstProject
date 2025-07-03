@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".activities.noom">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="أذكار الاستيقاظ من النوم "
+        android:textColor="@color/purpule"
+        android:textSize="28sp"
+        android:textStyle="bold|italic"
+        android:padding="25dp"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        />
+
+    <FrameLayout
+        android:id="@+id/wakeupid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+
+    <!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="15dp"-->
+<!--        android:padding="20dp"-->
+<!--        android:text="@string/tv1_noomWeakUp"-->
+<!--        android:textSize="18sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:gravity="center"-->
+<!--        android:textColor="@color/purpule"-->
+<!--        />-->
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="15dp"-->
+<!--        android:padding="20dp"-->
+<!--        android:text="@string/tv2_noomWeakUp"-->
+<!--        android:textSize="18sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textColor="@color/purpule"-->
+<!--        android:gravity="center"-->
+<!--        />-->
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="15dp"-->
+<!--        android:padding="20dp"-->
+<!--        android:text="@string/tv3_noomWeakUp"-->
+<!--        android:textSize="18sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textColor="@color/purpule"-->
+<!--        android:gravity="center"-->
+<!--        />-->
+</LinearLayout>
